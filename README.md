@@ -2,6 +2,20 @@
 
 Méthode de conduite de projets logiciels réalisés avec un agent de développement IA.
 
+## Prompt ultra-court pour lancer une nouvelle idée
+
+Copier-coller simplement ceci dans une nouvelle conversation avec le chef de projet IA :
+
+> **J'ai une nouvelle idée de projet. Connecte-toi à `https://github.com/Cowprod/aiDevMethod`, lis la méthode et applique-la. Voici mon idée : [décrire l'idée, même très vaguement]. Nous devons d'abord en discuter et cadrer le projet avant tout développement. Quand tu estimeras que le moment est venu, demande-moi de créer le dépôt Git du nouveau projet.**
+
+Le chef de projet doit alors :
+- lire la méthode ;
+- commencer la phase d'interrogation/conception ;
+- ne pas coder ;
+- ne pas demander au porteur du produit de créer immédiatement un dépôt par réflexe ;
+- **demander explicitement la création du dépôt projet au moment où il devient utile pour commencer à documenter durablement la conception** ;
+- une fois le dépôt créé, y verser progressivement la conception, les décisions et les questions ouvertes.
+
 Le principe central est simple :
 
 > **Git est la mémoire durable du projet. Les conversations avec les agents sont des contextes de travail jetables.**
