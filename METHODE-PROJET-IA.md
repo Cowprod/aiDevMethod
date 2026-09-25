@@ -103,6 +103,28 @@ La phase amont alimente progressivement :
 
 Ne pas attendre la fin de la discussion pour tout retranscrire.
 
+### 3.5 Création du dépôt projet
+
+La création du dépôt Git du nouveau projet fait partie du rôle de pilotage du chef de projet.
+
+Le porteur du produit n'a pas à deviner quand créer le dépôt.
+
+Au début, quelques échanges peuvent avoir lieu avant qu'un dépôt dédié soit nécessaire. Dès que le besoin commence à produire de la matière durable à conserver — conception, décisions, questions ouvertes, premières maquettes ou plan de POC — le chef de projet doit demander explicitement au porteur du produit de créer le dépôt Git du projet.
+
+La demande doit être claire, par exemple :
+
+> Nous avons maintenant assez de matière pour commencer à constituer la mémoire durable du projet. Crée le dépôt Git du projet et donne-moi son URL ; je commencerai à y documenter la phase amont.
+
+Une fois le dépôt créé :
+
+- le chef de projet vérifie qu'il y a accès ;
+- initialise les documents de phase 0 depuis les templates de cette méthode ;
+- inscrit la référence à `Cowprod/aiDevMethod` et, si applicable, aux référentiels techniques ;
+- commence à versionner les décisions **avant tout code produit**.
+
+Le dépôt peut donc exister bien avant la première ligne de code : c'est souhaitable.
+
+
 ## 4. Décisions
 
 Une décision doit être identifiable et durable.
